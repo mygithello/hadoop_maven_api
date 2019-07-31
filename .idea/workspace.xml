@@ -5,78 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b911b87-ffd3-4e40-bdcc-81f0035b7266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop_maven_api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/test/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/server/StatsServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/CalendarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/DomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/JedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assembly.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/system-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/assembly.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HBaseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HDFSUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/conf/SystemConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/system-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/assembly.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/HBaseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/HDFSUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/conf/SystemConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/system-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/hadoop_maven_api/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HBaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HBaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HDFSUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/conf/SystemConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/conf/SystemConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/assembly.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/HBaseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/HDFSUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/conf/SystemConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/system-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,29 +68,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1557">
-              <caret line="75" column="29" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="29" />
+            <state relative-caret-position="722">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assembly.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="38" column="49" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="49" />
+            <state relative-caret-position="114">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,23 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1917">
-              <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="67" column="69" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="69" />
+            <state relative-caret-position="147">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,108 +113,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="77" column="75" lean-forward="true" selection-start-line="77" selection-start-column="75" selection-end-line="77" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7534#7542#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/filter/CompareFilter.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/Delete.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/util/Bytes.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hive/hive-exec/2.1.1/hive-exec-2.1.1.jar!/com/google/common/primitives/Bytes.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/TableName.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/tools/Maven-3.5.4/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpConnectionManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/logging/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="217" column="13" selection-start-line="217" selection-start-column="13" selection-end-line="217" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="123">
+              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -255,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/DomUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="228">
               <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -267,7 +149,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="114">
               <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -279,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/server/StatsServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="323">
               <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -292,7 +174,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/JedisUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="228">
               <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
             </state>
           </provider>
@@ -314,7 +196,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/hdfs/api/HdfsApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/DomUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/tset/WordCountHA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/server/StatsServer.java" />
@@ -324,18 +205,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/assembly.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/test/HDFSTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\tools\Maven-3.5.4\repository" />
-        <option name="mavenHome" value="E:/tools/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="E:\tools\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="C:\soft\maven\repository" />
+        <option name="mavenHome" value="C:/soft/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\soft\maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -344,15 +237,36 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hadoop_maven_api Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hadoop_maven_api Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hadoop_maven_api Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="335" />
+    <option name="y" value="50" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -360,8 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,25 +305,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,10 +313,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="tesss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
@@ -436,430 +337,12 @@
               <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-              <item name="Logger" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-httpclient-3.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-httpclient-3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-httpclient-3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-httpclient-3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-httpclient-3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-httpclient-3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpConnectionManager" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-common-2.7.4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-common-2.7.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-common-2.7.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-common-2.7.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-common-2.7.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-common-2.7.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="IntWritable" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-common:2.7.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-common-2.7.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="Text" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="Delete" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-              <item name="CompareFilter" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="TableName" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-common:1.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-common-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Bytes" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hive:hive-exec:2.1.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hive:hive-exec:2.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hive-exec-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hive:hive-exec:2.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hive-exec-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hive:hive-exec:2.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hive-exec-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hive:hive-exec:2.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hive-exec-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hive:hive-exec:2.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hive-exec-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="primitives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hive:hive-exec:2.1.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hive-exec-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="primitives" type="462c0819:PsiDirectoryNode" />
-              <item name="Bytes" type="1a9f42e2:ClassTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -869,10 +352,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -895,18 +378,109 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HDFSApiTest.testRmr">
+    <configuration name="HDFSApiTest.testCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
+      <option name="METHOD_NAME" value="testCat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSApiTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSApiTest.testLs" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
+      <option name="METHOD_NAME" value="testLs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSApiTest.testMkdir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
+      <option name="METHOD_NAME" value="testMkdir" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSApiTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
+      <option name="METHOD_NAME" value="testPut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSApiTest.testRmr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
+      <option name="METHOD_NAME" value="testRmr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hadoop_maven_api" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-HADOOP_USER_NAME=hadoop" />
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="hadoop_maven_api:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/hadoop_maven_api" />
-          </settings>
-        </artifact>
-      </deployment>
+      <deployment />
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hadoop_maven_api" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hadoop_maven_api_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -914,7 +488,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53462" />
+        <option name="DEBUG_PORT" value="49880" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -963,11 +537,26 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="hadoop_maven_api:war exploded" />
-        </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.HDFSApiTest.testLs" />
+      <item itemvalue="JUnit.HDFSApiTest.testGet" />
+      <item itemvalue="JUnit.HDFSApiTest.testPut" />
+      <item itemvalue="Tomcat Server.hadoop_maven_api" />
+      <item itemvalue="JUnit.HDFSApiTest.testMkdir" />
+      <item itemvalue="JUnit.HDFSApiTest.testCat" />
+      <item itemvalue="JUnit.HDFSApiTest.testRmr" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HDFSApiTest.testRmr" />
+        <item itemvalue="JUnit.HDFSApiTest.testCat" />
+        <item itemvalue="JUnit.HDFSApiTest.testGet" />
+        <item itemvalue="JUnit.HDFSApiTest.testPut" />
+        <item itemvalue="JUnit.HDFSApiTest.testMkdir" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -983,16 +572,53 @@
       <workItem from="1564387581854" duration="924000" />
       <workItem from="1564388618239" duration="1272000" />
       <workItem from="1564389975424" duration="9194000" />
+      <workItem from="1564406162275" duration="2014000" />
+      <workItem from="1564456657110" duration="1235000" />
+      <workItem from="1564463621019" duration="2410000" />
+      <workItem from="1564467664405" duration="11669000" />
+      <workItem from="1564562329224" duration="3727000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 19h 49m 02s.xml">
+      <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 19h 50m 14s.xml">
+      <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 19h 52m 30s.xml">
+      <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 19h 53m 03s.xml">
+      <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testMkdir - 2019.07.31 at 19h 58m 17s.xml">
+      <configuration name="HDFSApiTest.testMkdir" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testPut - 2019.07.31 at 19h 59m 38s.xml">
+      <configuration name="HDFSApiTest.testPut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 20h 01m 37s.xml">
+      <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testCat - 2019.07.31 at 20h 04m 55s.xml">
+      <configuration name="HDFSApiTest.testCat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testRmr - 2019.07.31 at 20h 06m 57s.xml">
+      <configuration name="HDFSApiTest.testRmr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testRmr - 2019.07.31 at 20h 07m 15s.xml">
+      <configuration name="HDFSApiTest.testRmr" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21297000" />
+    <option name="totallyTimeSpent" value="42352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1000,11 +626,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.46587217" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4143167" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3512748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1015,10 +639,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.46458924" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.24329759" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1043,37 +669,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/IntWritable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/Text.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/IntWritable.class" />
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/Text.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
@@ -1106,72 +703,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/DomUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/server/StatsServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/JedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/assembly.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1557">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,72 +721,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="217" column="13" selection-start-line="217" selection-start-column="13" selection-end-line="217" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpConnectionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/TableName.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hive/hive-exec/2.1.1/hive-exec-2.1.1.jar!/com/google/common/primitives/Bytes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/util/Bytes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/Delete.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/filter/CompareFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/logging/Logger.java" />
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpConnectionManager.class" />
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/TableName.class" />
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hive/hive-exec/2.1.1/hive-exec-2.1.1.jar!/com/google/common/primitives/Bytes.class" />
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/util/Bytes.class" />
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/Delete.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java" />
+    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/filter/CompareFilter.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1258,6 +736,98 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7534#7542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/DomUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/server/StatsServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/JedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1273,7 +843,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1281,7 +850,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1321,6 +890,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

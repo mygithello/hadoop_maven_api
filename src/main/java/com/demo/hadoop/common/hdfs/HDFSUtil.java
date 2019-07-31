@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.hadoop.common;
+package com.demo.hadoop.common.hdfs;
 
 import java.io.IOException;
 
@@ -23,11 +23,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 
 /**
- * TODO
- * 
- * @author smartloli.
- *
- *         Created by Sep 19, 2017
+ * HDFS java api
  */
 public class HDFSUtil {
 
@@ -68,7 +64,7 @@ public class HDFSUtil {
 		FileSystem fs = FileSystem.get(conf); // 申明一个分布式文件系统对象
 		Path src = new Path(remotePath);
 		Path dst = new Path(localPath); // 得到操作分布式文件系统（HDFS）文件的路径对象
-		fs.copyFromLocalFile(src, dst); //上传文件到目标服务器
+		fs.copyToLocalFile(src, dst); //上传文件到目标服务器
 		fs.close();  //关闭分布文件操作对象
 	}
 
