@@ -15,11 +15,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.hadoop.common.ubas.server;
+package com.demo.hadoop.common.other.ubas.server;
 
 import java.text.ParseException;
 
-import com.demo.hadoop.common.ubas.quartz.StatsJobQuartz;
+import com.demo.hadoop.common.other.ubas.quartz.StatsJobQuartz;
 import com.demo.hadoop.conf.SystemConfig;
 import org.quartz.CronTrigger;
 import org.quartz.JobDataMap;

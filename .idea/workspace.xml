@@ -5,55 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b911b87-ffd3-4e40-bdcc-81f0035b7266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HBaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HBaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/HDFSUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCountHA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/test/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/system-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/system-config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/tesss/WordCountHA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/test/WordCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/hadoop/conf/SystemConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/hadoop/conf/SystemConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/assembly.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/HBaseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/HDFSUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount$IntSumReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount$TokenizerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA$IntSumReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA$TokenizerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/tesss/WordCountHA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount$IntSumReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount$TokenizerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/test/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/server/StatsServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/CalendarUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/DomUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/common/ubas/util/JedisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/com/demo/hadoop/conf/SystemConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/classes/system-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop_maven_api/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/system-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/system-config.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,32 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCountHA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,12 +54,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="92" column="26" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="26" />
+            <state relative-caret-position="852">
+              <caret line="77" column="75" lean-forward="true" selection-start-line="77" selection-start-column="75" selection-end-line="77" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#7534#7542#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state relative-caret-position="237">
+              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="204">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -202,8 +155,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/quartz/StatsJobQuartz.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/protocol/SqlTypeInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/test/WordCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/ubas/util/HiveJdbcUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assembly.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java" />
@@ -213,6 +164,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/system-config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCountHA.java" />
       </list>
     </option>
   </component>
@@ -263,8 +219,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="335" />
-    <option name="y" value="50" />
+    <option name="x" value="6" />
+    <option name="y" value="71" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -274,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,7 +281,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="tesss" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
@@ -335,13 +292,19 @@
             </path>
             <path>
               <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -378,7 +341,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HDFSApiTest.testRmr">
+  <component name="RunManager" selected="Application.WordCountHA">
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.wordcount.WordCount" />
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.wordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountHA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.wordcount.WordCountHA" />
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.wordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HDFSApiTest.testCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hadoop_maven_api" />
       <extension name="coverage">
@@ -390,22 +379,6 @@
       <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
       <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
       <option name="METHOD_NAME" value="testCat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HDFSApiTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hadoop_maven_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
-      <option name="METHOD_NAME" value="testGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -438,22 +411,6 @@
       <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
       <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
       <option name="METHOD_NAME" value="testMkdir" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HDFSApiTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hadoop_maven_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.hadoop.common.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demo.hadoop.common.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hdfs.HDFSApiTest" />
-      <option name="METHOD_NAME" value="testPut" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -540,21 +497,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.WordCount" />
       <item itemvalue="JUnit.HDFSApiTest.testLs" />
-      <item itemvalue="JUnit.HDFSApiTest.testGet" />
-      <item itemvalue="JUnit.HDFSApiTest.testPut" />
-      <item itemvalue="Tomcat Server.hadoop_maven_api" />
-      <item itemvalue="JUnit.HDFSApiTest.testMkdir" />
       <item itemvalue="JUnit.HDFSApiTest.testCat" />
       <item itemvalue="JUnit.HDFSApiTest.testRmr" />
+      <item itemvalue="JUnit.HDFSApiTest.testMkdir" />
+      <item itemvalue="Tomcat Server.hadoop_maven_api" />
+      <item itemvalue="Application.WordCountHA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCountHA" />
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="JUnit.HDFSApiTest.testMkdir" />
         <item itemvalue="JUnit.HDFSApiTest.testRmr" />
         <item itemvalue="JUnit.HDFSApiTest.testCat" />
-        <item itemvalue="JUnit.HDFSApiTest.testGet" />
-        <item itemvalue="JUnit.HDFSApiTest.testPut" />
-        <item itemvalue="JUnit.HDFSApiTest.testMkdir" />
       </list>
     </recent_temporary>
   </component>
@@ -576,17 +533,22 @@
       <workItem from="1564456657110" duration="1235000" />
       <workItem from="1564463621019" duration="2410000" />
       <workItem from="1564467664405" duration="11669000" />
-      <workItem from="1564562329224" duration="3727000" />
+      <workItem from="1564562329224" duration="4148000" />
+      <workItem from="1564582330624" duration="2214000" />
+      <workItem from="1564586122543" duration="1353000" />
+      <workItem from="1564589072648" duration="1397000" />
     </task>
+    <task id="LOCAL-00001" summary="hdfs  java   api  测试完成">
+      <created>1564574895156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564574895156</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 19h 49m 02s.xml">
-      <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 19h 50m 14s.xml">
-      <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HDFSApiTest_testGet - 2019.07.31 at 19h 52m 30s.xml">
       <configuration name="HDFSApiTest.testGet" configurationId="JUnit" />
     </history-entry>
@@ -611,14 +573,21 @@
     <history-entry file="HDFSApiTest_testRmr - 2019.07.31 at 20h 07m 15s.xml">
       <configuration name="HDFSApiTest.testRmr" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HDFSApiTest_testMkdir - 2019.07.31 at 22h 23m 50s.xml">
+      <configuration name="HDFSApiTest.testMkdir" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSApiTest_testMkdir - 2019.07.31 at 22h 25m 27s.xml">
+      <configuration name="HDFSApiTest.testMkdir" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42352000" />
+    <option name="totallyTimeSpent" value="47737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -628,7 +597,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3512748" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5368272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -640,7 +609,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.46458924" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32822084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -655,20 +624,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hdfs  java   api  测试完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="hdfs  java   api  测试完成" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/hdfs/api/HdfsApi.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/tset/WordCount.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/tset/WordCountHA.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/test/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/IntWritable.class" />
     <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/Text.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
@@ -711,16 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="67" column="69" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/logging/Logger.java" />
     <entry file="jar://E:/tools/Maven-3.5.4/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpConnectionManager.class" />
     <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/TableName.class" />
@@ -729,17 +682,6 @@
     <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/Delete.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java" />
     <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/filter/CompareFilter.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="77" column="75" lean-forward="true" selection-start-line="77" selection-start-column="75" selection-end-line="77" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7534#7542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -757,10 +699,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/conf/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="1672">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapreduce/Job.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12312">
+          <caret line="699" column="19" selection-start-line="699" selection-start-column="19" selection-end-line="699" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,30 +761,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="92" column="26" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        <state relative-caret-position="237">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="852">
+          <caret line="77" column="75" lean-forward="true" selection-start-line="77" selection-start-column="75" selection-end-line="77" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7534#7542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/test/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1088">
+          <caret line="76" column="12" selection-start-line="75" selection-start-column="9" selection-end-line="81" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCountHA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -15,16 +15,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.hadoop.common.ubas.quartz;
+package com.demo.hadoop.common.other.ubas.quartz;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.demo.hadoop.common.ubas.protocol.SqlTypeInfo;
-import com.demo.hadoop.common.ubas.util.DomUtils;
-import com.demo.hadoop.common.ubas.util.HiveJdbcUtils;
-import com.demo.hadoop.common.ubas.util.JedisUtils;
+import com.demo.hadoop.common.other.ubas.protocol.SqlTypeInfo;
+import com.demo.hadoop.common.other.ubas.util.DomUtils;
+import com.demo.hadoop.common.other.ubas.util.HiveJdbcUtils;
+import com.demo.hadoop.common.other.ubas.util.JedisUtils;
 import org.quartz.Job;
 import org.quartz.JobDetail;
 import org.quartz.JobExecutionContext;

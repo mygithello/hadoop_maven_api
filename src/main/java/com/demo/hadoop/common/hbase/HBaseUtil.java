@@ -1,4 +1,4 @@
-package com.demo.hadoop.common;
+package com.demo.hadoop.common.hbase;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.*;

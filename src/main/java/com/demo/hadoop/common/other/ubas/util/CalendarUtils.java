@@ -1,4 +1,4 @@
-package com.demo.hadoop.common.ubas.util;
+package com.demo.hadoop.common.other.ubas.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

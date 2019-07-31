@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.hadoop.common.ubas.util;
+package com.demo.hadoop.common.other.ubas.util;
 
 import java.util.HashMap;
 import java.util.Iterator;

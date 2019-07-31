@@ -15,13 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.hadoop.common.ubas.util;
+package com.demo.hadoop.common.other.ubas.util;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.demo.hadoop.common.ubas.protocol.SqlTypeInfo;
+import com.demo.hadoop.common.other.ubas.protocol.SqlTypeInfo;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;

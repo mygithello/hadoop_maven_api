@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.hadoop.common.ubas.protocol;
+package com.demo.hadoop.common.other.ubas.protocol;
 
 /**
  * Description of Sql statement in XML file.
