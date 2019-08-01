@@ -26,7 +26,7 @@ public class HDFSApiTest {
          */
         //tmp/test2
         //HDFSUtil.mkdir("/user/hadoop/test22/");
-        HDFSUtil.mkdir("/tmp/test3");
+        HDFSUtil.mkdir("/user/sqoop/datatest");
         System.out.println("000000");
     }
 

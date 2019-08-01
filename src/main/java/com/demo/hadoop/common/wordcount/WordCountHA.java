@@ -37,7 +37,7 @@ import org.slf4j.LoggerFactory;
  * Wordcount的例子是一个比较经典的mapreduce例子，可以叫做Hadoop版的hello world。
  * 它将文件中的单词分割取出，然后shuffle，sort（map过程）。 
  * 接着进入到汇总统计 （reduce过程），最后写到hdfs中。
- * 该类时WordCount的升级版，可用性较高
+ * 该类时WordCount的升级版，可用性较高，会自动选择active节点执行任务
  */
 
 public class WordCountHA {
