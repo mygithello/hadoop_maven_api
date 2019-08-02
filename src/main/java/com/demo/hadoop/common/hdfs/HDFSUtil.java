@@ -119,8 +119,4 @@ public class HDFSUtil {
 		fs.close();
 	}
 
-	public static void main(String[] args) throws IOException {
-		ls("/");
-	}
-
 }
