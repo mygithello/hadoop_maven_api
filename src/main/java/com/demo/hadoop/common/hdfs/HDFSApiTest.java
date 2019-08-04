@@ -39,7 +39,7 @@ public class HDFSApiTest {
          * 2. 通过 haddop fs -chmod 777 ... 修改文件的权限为任何人可读可写(不安全很low)
          * 3.显示设定环境变量： 比较靠谱的方式：System.setProperty("HADOOP_USER_NAME", "root"); 当然还可以通过run configuration 的方式进行指定jvm环境功能变量‘-DHADOOP_USER_NAME=hadoop’
          */
-        HDFSUtil.put("/user/hadoop/test22","D:\\test.txt");
+        HDFSUtil.put("/user/sqoop","D:\\ddd.txt");
     }
 
 

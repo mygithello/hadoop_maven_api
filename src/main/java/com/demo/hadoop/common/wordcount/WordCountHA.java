@@ -113,7 +113,7 @@ public class WordCountHA {
 		try {
 			if (args.length < 1) {
 				LOG.info("args length is 0");
-				run("test.txt");
+				run("ddd.txt");
 			} else {
 				run(args[0]);
 			}
