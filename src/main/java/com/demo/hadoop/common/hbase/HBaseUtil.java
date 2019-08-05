@@ -235,7 +235,7 @@ public class HBaseUtil {
      */
 
 
-    
+
 
     //==========================以下方法待验证，未验证==================================================
     public static void selectFilter(String tablename, List<String> arr) throws IOException {
