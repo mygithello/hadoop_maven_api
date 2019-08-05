@@ -30,8 +30,8 @@ public class HBaseUtil {
     private static Configuration conf;
     static {
         conf= HBaseConfiguration.create();
-        conf.set("hbase.zookeeper.quorum","master:2181");
-        conf.set("master","master:60010");
+        conf.set("hbase.zookeeper.quorum","dn3:2181");
+        conf.set("master","nns:60010");
     }
 
     /**
@@ -73,7 +73,7 @@ public class HBaseUtil {
      * @param alists
      * @throws IOException
      */
-    public static void insert(String tableName, ArrayList<Put> alists) throws IOException {
+    public static void put(String tableName, ArrayList<Put> alists) throws IOException {
         //申明连接对象
         HConnection connection = HConnectionManager.createConnection(conf);
         HTableInterface table=connection.getTable(tableName);
@@ -154,15 +154,15 @@ public class HBaseUtil {
     /**
      * 获取数据
      */
-    public static void QueryAll(String tableName) {
+    public static void queryAll(String tableName) {
         HTablePool pool = new HTablePool(conf, 1000);
-        HTable table = (HTable) pool.getTable(tableName);
+        HTableInterface table = pool.getTable(tableName);
         try {
             ResultScanner rs = table.getScanner(new Scan());
             for (Result r : rs) {
                 System.out.println("获得到rowkey:" + new String(r.getRow()));
                 for (KeyValue keyValue : r.raw()) {
-                    System.out.println("列：" + new String(keyValue.getFamily())
+                    System.out.println("列：" + new String(keyValue.getFamily())+" key:"+new String(keyValue.getQualifier())
                             + "====值:" + new String(keyValue.getValue()));
                 }
             }
@@ -171,111 +171,16 @@ public class HBaseUtil {
         }
     }
 
-
-    public static void QueryByCondition1(String tableName) {
-
-        HTablePool pool = new HTablePool(conf, 1000);
-        HTable table = (HTable) pool.getTable(tableName);
-        try {
-            Get scan = new Get("abcdef".getBytes());// 根据rowkey查询
-            Result r = table.get(scan);
-            System.out.println("获得到rowkey:" + new String(r.getRow()));
-            for (KeyValue keyValue : r.raw()) {
-                System.out.println("列：" + new String(keyValue.getFamily())
-                        + "====值:" + new String(keyValue.getValue()));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-
-    public static void QueryByCondition2(String tableName) {
-        try {
-            HTablePool pool = new HTablePool(conf, 1000);
-            HTable table = (HTable) pool.getTable(tableName);
-            Filter filter = new SingleColumnValueFilter(Bytes
-                    .toBytes("column1"), null, CompareFilter.CompareOp.EQUAL, Bytes
-                    .toBytes("aaa")); // 当列column1的值为aaa时进行查询
-            Scan s = new Scan();
-            s.setFilter(filter);
-            ResultScanner rs = table.getScanner(s);
-            for (Result r : rs) {
-                System.out.println("获得到rowkey:" + new String(r.getRow()));
-                for (KeyValue keyValue : r.raw()) {
-                    System.out.println("列：" + new String(keyValue.getFamily())
-                            + "====值:" + new String(keyValue.getValue()));
-                }
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
-    public static void QueryByCondition3(String tableName) {
-
-        try {
-            HTablePool pool = new HTablePool(conf, 1000);
-            HTable table = (HTable) pool.getTable(tableName);
-
-            List<Filter> filters = new ArrayList<Filter>();
-
-            Filter filter1 = new SingleColumnValueFilter(Bytes
-                    .toBytes("column1"), null, CompareFilter.CompareOp.EQUAL, Bytes
-                    .toBytes("aaa"));
-            filters.add(filter1);
-
-            Filter filter2 = new SingleColumnValueFilter(Bytes
-                    .toBytes("column2"), null, CompareFilter.CompareOp.EQUAL, Bytes
-                    .toBytes("bbb"));
-            filters.add(filter2);
-
-            Filter filter3 = new SingleColumnValueFilter(Bytes
-                    .toBytes("column3"), null, CompareFilter.CompareOp.EQUAL, Bytes
-                    .toBytes("ccc"));
-            filters.add(filter3);
-
-            FilterList filterList1 = new FilterList(filters);
-
-            Scan scan = new Scan();
-            scan.setFilter(filterList1);
-            ResultScanner rs = table.getScanner(scan);
-            for (Result r : rs) {
-                System.out.println("获得到rowkey:" + new String(r.getRow()));
-                for (KeyValue keyValue : r.raw()) {
-                    System.out.println("列：" + new String(keyValue.getFamily())
-                            + "====值:" + new String(keyValue.getValue()));
-                }
-            }
-            rs.close();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
     /**
-     * 分页扫描表
+     * 获取数据  by rowkey   查询单行记录
      */
-
-
-
-
-
-    /**
-     * ==============================================================================================================
-     */
-
     public static void selectRowKey(String tablename, String rowKey) throws IOException
     {
         HTable table = new HTable(conf, tablename);
         Get g = new Get(rowKey.getBytes());
         Result rs = table.get(g);
 
-        for (KeyValue kv : rs.raw())
-        {
+        for (KeyValue kv : rs.raw()){
             System.out.println("--------------------" + new String(kv.getRow()) + "----------------------------");
             System.out.println("Column Family: " + new String(kv.getFamily()));
             System.out.println("Column       :" + new String(kv.getQualifier()));
@@ -283,6 +188,9 @@ public class HBaseUtil {
         }
     }
 
+    /**
+     * 获取数据  by rowkey+family   查询单行记录
+     */
     public static void selectRowKeyFamily(String tablename, String rowKey, String family) throws IOException
     {
         HTable table = new HTable(conf, tablename);
@@ -298,9 +206,15 @@ public class HBaseUtil {
         }
     }
 
-    public static void selectRowKeyFamilyColumn(String tablename, String rowKey, String family, String column)
-            throws IOException
-    {
+    /**
+     * 获取数据  by rowkey+family+column
+     * @param tablename  表名
+     * @param rowKey  主键，唯一
+     * @param family  列簇
+     * @param column  列
+     * @throws IOException
+     */
+    public static void selectRowKeyFamilyColumn(String tablename, String rowKey, String family, String column) throws IOException {
         HTable table = new HTable(conf, tablename);
         Get g = new Get(rowKey.getBytes());
         g.addColumn(family.getBytes(), column.getBytes());
@@ -316,21 +230,28 @@ public class HBaseUtil {
         }
     }
 
-    public static void selectFilter(String tablename, List<String> arr) throws IOException
-    {
+    /**
+     * 分页扫描表 ....
+     */
+
+
+    
+
+    //==========================以下方法待验证，未验证==================================================
+    public static void selectFilter(String tablename, List<String> arr) throws IOException {
         HTable table = new HTable(conf, tablename);
         Scan scan = new Scan();// 实例化一个遍历器
         FilterList filterList = new FilterList(); // 过滤器List
 
         for (String v : arr)
-        { // 下标0为列簇，1为列名，3为条件
+        { // 下标0为列簇，1为列名，2为条件
             String[] wheres = v.split(",");
 
+            byte[] bytes = wheres[2].getBytes();
             filterList.addFilter(new SingleColumnValueFilter(// 过滤器
                     wheres[0].getBytes(), wheres[1].getBytes(),
-
                     CompareFilter.CompareOp.EQUAL,// 各个条件之间是" and "的关系
-                    wheres[2].getBytes()));
+                    bytes));
         }
         scan.setFilter(filterList);
         ResultScanner ResultScannerFilterList = table.getScanner(scan);
