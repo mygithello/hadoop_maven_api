@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper>
+	<select frequency="DAY" type="0" theme="app" name="count">
+		<hql>
+			SELECT COUNT(*) FROM test_11
+		</hql>
+	</select>
+</mapper>

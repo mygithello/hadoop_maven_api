@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.hadoop.common.hive;
+package com.demo.hadoop.common.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -84,6 +84,7 @@ public class HiveJdbcUtils {
 		ResultSet res = null;
 
 		if (conn != null) {
+			System.out.println("hql-----"+hql);
 			LOG.info("HQL[" + hql + "]");
 			stmt = conn.createStatement();
 			res = stmt.executeQuery(hql);
