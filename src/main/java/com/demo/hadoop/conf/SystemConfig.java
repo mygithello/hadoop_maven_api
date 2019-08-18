@@ -35,7 +35,8 @@ public final class SystemConfig {
 				if (osName.contains("Mac") || osName.contains("Win")) {
 					mConfig.load(SystemConfig.class.getClassLoader().getResourceAsStream("system-config.properties"));
 				} else {
-					mConfig.load(new FileInputStream(System.getProperty("user.dir") + "/conf/system-config.properties"));
+					mConfig.load(SystemConfig.class.getClassLoader().getResourceAsStream("system-config.properties"));
+					//mConfig.load(new FileInputStream(System.getProperty("user.dir") + "/conf/system-config.properties"));
 				}
 			} catch (Exception exp1) {
 				exp1.printStackTrace();

@@ -1,0 +1,2 @@
+kafka 包下
+flume -->kafka--->storm ---->redis

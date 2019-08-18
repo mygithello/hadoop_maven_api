@@ -94,6 +94,7 @@ public class JedisUtils {
 				}
 			}
 		}
+		jedis.auth("123456");
 		return jedis;
 	}
 
