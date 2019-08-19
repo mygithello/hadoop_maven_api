@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b911b87-ffd3-4e40-bdcc-81f0035b7266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/consant/JConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/KafkaSpout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/MessageBolts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/StatsBolts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/server/KafkaTopology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/server/KafkaTopology2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/util/InetAddressUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/test/TestJedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JConsumers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JProducers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JConsumers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JProducers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/utils/JedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/utils/JedisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/system-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/system-config.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,118 +17,100 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="369" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JConsumers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/KafkaSpout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="846">
+              <caret line="108" column="61" lean-forward="true" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/test/TestJedis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/server/KafkaTopology.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/server/KafkaTopology2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/MessageBolts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/StatsBolts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="79" column="66" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/consant/JConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/KafkaSpout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+            <state relative-caret-position="161">
+              <caret line="51" column="54" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JPartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ExecutorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4351">
+              <caret line="263" column="29" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JConsumers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JProducers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JProducers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -165,11 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/assembly.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HBaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/HDFSUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/test/HDFSTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/hdfs/HDFSTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/tesss/WordCountHA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/wordcount/WordCount.java" />
@@ -216,6 +185,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/conf/SystemConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/test/TestJedis.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JProducers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JConsumers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JProducers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JConsumers.java" />
       </list>
     </option>
   </component>
@@ -266,8 +240,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="42" />
-    <option name="y" value="372" />
+    <option name="x" value="41" />
+    <option name="y" value="371" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -293,6 +267,73 @@
             </path>
             <path>
               <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="does" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="does" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="does" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_maven_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_maven_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -305,24 +346,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\does\kafka" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.demo.hadoop.does.kafka.executor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\common\kafka\api08" />
+      <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\common\kafka\api10" />
       <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\does\test" />
       <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\do\kafka\executor" />
       <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\do\kafka\util" />
-      <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\do\kafka\server" />
-      <recent name="D:\idea_room\hadoop_maven_api\src\main\java\com\demo\hadoop\do\kafka\exec" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,7 +382,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestJedis">
+  <component name="RunManager" selected="Application.JConsumers">
+    <configuration name="JConsumers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.kafka.api10.JConsumers" />
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.kafka.api10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JProducers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.kafka.api10.JProducers" />
+      <module name="hadoop_maven_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.hadoop.common.kafka.api10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KafkaTopology" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.does.kafka.server.KafkaTopology" />
       <module name="hadoop_maven_api" />
@@ -364,39 +435,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.hive.server.StatsServer" />
-      <module name="hadoop_maven_api" />
-      <option name="PROGRAM_PARAMETERS" value="hivetest.xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.hadoop.common.hive.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestJedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.does.test.TestJedis" />
       <module name="hadoop_maven_api" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.demo.hadoop.does.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCountHA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.hadoop.common.wordcount.WordCountHA" />
-      <module name="hadoop_maven_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.hadoop.common.wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -485,21 +529,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WordCountHA" />
-      <item itemvalue="Application.StatsServer" />
-      <item itemvalue="JUnit.HDFSApiTest.testLs" />
-      <item itemvalue="Tomcat Server.hadoop_maven_api" />
       <item itemvalue="Application.KafkaTopology" />
       <item itemvalue="Application.KafkaTopology2" />
       <item itemvalue="Application.TestJedis" />
+      <item itemvalue="Application.JProducers" />
+      <item itemvalue="Application.JConsumers" />
+      <item itemvalue="JUnit.HDFSApiTest.testLs" />
+      <item itemvalue="Tomcat Server.hadoop_maven_api" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JConsumers" />
+        <item itemvalue="Application.JProducers" />
         <item itemvalue="Application.TestJedis" />
         <item itemvalue="Application.KafkaTopology" />
         <item itemvalue="Application.KafkaTopology2" />
-        <item itemvalue="Application.WordCountHA" />
-        <item itemvalue="Application.StatsServer" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +582,8 @@
       <workItem from="1565854544346" duration="1796000" />
       <workItem from="1565952178546" duration="254000" />
       <workItem from="1565954681156" duration="667000" />
-      <workItem from="1566119576082" duration="16597000" />
+      <workItem from="1566119576082" duration="22412000" />
+      <workItem from="1566190719387" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="hdfs  java   api  测试完成">
       <created>1564574895156</created>
@@ -589,7 +634,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565855083747</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="flume ---&gt;kafka ----&gt;storm ----&gt;redis">
+      <created>1566143598443</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566143598443</updated>
+    </task>
+    <task id="LOCAL-00009" summary="补充">
+      <created>1566143713415</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566143713415</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -625,14 +684,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107812000" />
+    <option name="totallyTimeSpent" value="114623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31032172" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67228913" visible="true" weight="0.29088473" />
+      <window_info id="Structure" order="1" sideWeight="0.32771084" side_tool="true" visible="true" weight="0.29088473" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -641,8 +700,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.296034" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.17988668" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.41218132" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4546742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -657,12 +716,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.11595174" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.326284" weight="0.7580429" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.673716" side_tool="true" weight="0.7580429" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,7 +775,9 @@
     <MESSAGE value="--habase java  api操作和hbase数据库--" />
     <MESSAGE value="haproxy连接成功" />
     <MESSAGE value="hive--quartz--xml执行sql--rs--save--to--redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="hive--quartz--xml执行sql--rs--save--to--redis" />
+    <MESSAGE value="flume ---&gt;kafka ----&gt;storm ----&gt;redis" />
+    <MESSAGE value="补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -729,13 +791,12 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hadoop_maven_api$JConsumers.ic" NAME="JConsumers Coverage Results" MODIFIED="1566145872545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.hadoop.common.kafka.api10.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpConnectionManager.class" />
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/TableName.class" />
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hive/hive-exec/2.1.1/hive-exec-2.1.1.jar!/com/google/common/primitives/Bytes.class" />
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-common/1.1.1/hbase-common-1.1.1.jar!/org/apache/hadoop/hbase/util/Bytes.class" />
-    <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/client/Delete.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java" />
     <entry file="jar://E:/tools/Maven-3.5.4/repository/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.jar!/org/apache/hadoop/hbase/filter/CompareFilter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapreduce/Job.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -908,23 +969,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/consant/test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/StormParam.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/consant/test.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/StormParam.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/1.1.1/storm-core-1.1.1.jar!/org/apache/storm/Config.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1009,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/KafkaSpout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/StatsBolts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1046,17 +1082,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="960">
+          <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/说明.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4351">
+          <caret line="263" column="29" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JProducers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JProducers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/system-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api08/JConsumers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/common/kafka/api10/JConsumers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="108" column="61" lean-forward="true" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hadoop/does/kafka/executor/KafkaSpout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
