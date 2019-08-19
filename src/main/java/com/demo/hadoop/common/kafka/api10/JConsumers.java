@@ -59,10 +59,7 @@ public class JConsumers {
 		props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");// Key 反序列化
 		props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer"); // Value 反序列化
 		consumer = new KafkaConsumer<String, String>(props); // 实例化一个消费者对象
-		//consumer.subscribe(Arrays.asList("ip_login_rt")); //
-		List<String> topicList=new ArrayList<>();
-		topicList.add("ip_login_rt");
-		consumer.subscribe(topicList);
+		consumer.subscribe(Arrays.asList("ip_login_rt"));
 	}
 
 	/** 多线程执行. */
