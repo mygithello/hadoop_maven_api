@@ -37,5 +37,6 @@ public class TestJedis {
 		System.out.println(jedis.get("20190816_other"));
 
 		jedis.set("ceshi","123444");
+		System.out.println("-------------");
 	}
 }

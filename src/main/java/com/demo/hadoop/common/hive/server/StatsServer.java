@@ -29,12 +29,14 @@ public class StatsServer {
 
 	/** 主函数入口. */
 	public static void main(final String[] args) {
+		//args参数设置：hivetest.xml
 		try {
 			if (args.length != 1) {
 				LOG.info("Stats name has error,please check input.");
 				return;
 			}
 			//final String jobPath = System.getProperty("user.dir") + "/conf/" + args[0];
+			System.out.println("arg[0]:"+args[0]);
 			final String jobPath = System.getProperty("user.dir") + "/src/main/resources/" + args[0];
 			jobStart(jobPath);
 		} catch (Exception ex) {
