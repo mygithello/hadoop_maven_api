@@ -17,7 +17,7 @@ import com.couchbase.client.java.query.N1qlQueryRow;
 
 public class TestConnectBase {
     public static void main(String[] args) {
-        
+
         //Bucket bucket = cluster2.openBucket("bucket-name");
         //Create your bucket.....
         BucketSettings sampleBucket = new DefaultBucketSettings.Builder()

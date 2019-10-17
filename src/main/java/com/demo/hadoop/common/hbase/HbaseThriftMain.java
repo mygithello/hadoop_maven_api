@@ -14,7 +14,7 @@ import java.util.List;
 public class HbaseThriftMain {
     public static void main(String[] args) throws Exception {
         //创建连接
-        TTransport transport = new TSocket("10.176.3.72", 9090, 5000);
+        TTransport transport = new TSocket("ip", 9090, 5000);
         TProtocol protocol = new TBinaryProtocol(transport);
         THBaseService.Iface client = new THBaseService.Client(protocol);
         transport.open();

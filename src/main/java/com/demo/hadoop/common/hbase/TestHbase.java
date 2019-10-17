@@ -29,7 +29,7 @@ public class TestHbase {
     public static void write2HBase(String value) throws IOException {
         Configuration config = HBaseConfiguration.create();
 
-        config.set("hbase.zookeeper.quorum","10.176.3.72");
+        config.set("hbase.zookeeper.quorum","ip");
         config.set("hbase.zookeeper.property.clientPort","2182");
 
         System.out.println("开始连接hbase");
