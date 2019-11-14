@@ -13,6 +13,7 @@ public class ETLDriver implements Tool {
 
     private Configuration configuration;
 
+    @Override
     public int run(String[] strings) throws Exception {
         //创建Job
         Job job = Job.getInstance(configuration);
@@ -32,8 +33,10 @@ public class ETLDriver implements Tool {
         job.setOutputValueClass(NullWritable.class);
 
         //设置输出输入路径
-        FileInputFormat.setInputPaths(job,new Path(strings[0]));
-        FileOutputFormat.setOutputPath(job,new Path(strings[1]));
+        //FileInputFormat.setInputPaths(job,new Path(strings[0]));
+        FileInputFormat.setInputPaths(job,new Path("/home/jiayachong/IdeaProjects/hadoop_maven_api/src/main/java/com/demo/hadoop/etl/test_input.txt"));
+        //FileOutputFormat.setOutputPath(job,new Path(strings[1]));
+        FileOutputFormat.setOutputPath(job,new Path("/home/jiayachong/IdeaProjects/hadoop_maven_api/src/main/java/com/demo/hadoop/etl/test_input2.txt"));
 
         //不需要reduce
         job.setNumReduceTasks(0);
@@ -43,10 +46,12 @@ public class ETLDriver implements Tool {
         return 1;
     }
 
+    @Override
     public void setConf(Configuration configuration) {
         this.configuration=configuration;
     }
 
+    @Override
     public Configuration getConf() {
         return configuration;
     }
