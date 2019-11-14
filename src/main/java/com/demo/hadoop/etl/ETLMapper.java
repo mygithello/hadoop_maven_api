@@ -18,6 +18,7 @@ public class ETLMapper extends Mapper<LongWritable,Text,Text,NullWritable> {
 
         //数据清理
         String s1 = ETLUtil.FormatString(s);
+        s1 =s1+"ttttttttt";
 
         //传递数据
         if(s1==null) return;

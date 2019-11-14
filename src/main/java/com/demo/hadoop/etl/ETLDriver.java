@@ -34,9 +34,9 @@ public class ETLDriver implements Tool {
 
         //设置输出输入路径
         //FileInputFormat.setInputPaths(job,new Path(strings[0]));
-        FileInputFormat.setInputPaths(job,new Path("/home/jiayachong/IdeaProjects/hadoop_maven_api/src/main/java/com/demo/hadoop/etl/test_input.txt"));
+        FileInputFormat.setInputPaths(job,new Path("D:\\idea_room\\hadoop_maven_api\\src\\main\\java\\com\\demo\\hadoop\\etl\\test_input.txt"));
         //FileOutputFormat.setOutputPath(job,new Path(strings[1]));
-        FileOutputFormat.setOutputPath(job,new Path("/home/jiayachong/IdeaProjects/hadoop_maven_api/src/main/java/com/demo/hadoop/etl/test_input2.txt"));
+        FileOutputFormat.setOutputPath(job,new Path("D:\\idea_room\\hadoop_maven_api\\src\\main\\java\\com\\demo\\hadoop\\etl\\out"));
 
         //不需要reduce
         job.setNumReduceTasks(0);
