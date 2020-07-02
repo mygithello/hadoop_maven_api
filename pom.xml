@@ -121,7 +121,7 @@
     <dependency>
       <groupId>org.apache.storm</groupId>
       <artifactId>storm-core</artifactId>
-      <version>1.1.1</version>
+      <version>1.1.3</version>
       <!--打包时配置，忽略掉storm core 包-->
       <!--<scope>provided</scope>-->
       <!--本地调试代码运行时-->
