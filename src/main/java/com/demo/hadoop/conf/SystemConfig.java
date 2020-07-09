@@ -1,5 +1,8 @@
 package com.demo.hadoop.conf;
 
+import com.sun.org.slf4j.internal.Logger;
+import com.sun.org.slf4j.internal.LoggerFactory;
+
 import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Enumeration;
@@ -8,8 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 /**
  * @Date May 25, 2015
@@ -41,7 +43,7 @@ public final class SystemConfig {
 			} catch (Exception exp1) {
 				exp1.printStackTrace();
 			}
-			LOG.info("Successfully loaded default properties.");
+			LOG.warn("Successfully loaded default properties.");
 
 			if (LOG.isDebugEnabled()) {
 				LOG.debug("SystemConfig looks like this ...");
@@ -70,7 +72,7 @@ public final class SystemConfig {
 			} catch (Exception exp1) {
 				exp1.printStackTrace();
 			}
-			LOG.info("Successfully loaded default properties.");
+			LOG.warn("Successfully loaded default properties.");
 
 			if (LOG.isDebugEnabled()) {
 				LOG.debug("SystemConfig looks like this ...");

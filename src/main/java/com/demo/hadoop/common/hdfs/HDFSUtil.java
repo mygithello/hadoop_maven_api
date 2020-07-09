@@ -29,22 +29,37 @@ public class HDFSUtil {
 
 	private static Configuration conf = null;// 申明配置属性值对象
 
+//	static {
+//		conf = new Configuration();
+//		// 指定hdfs的nameservice为cluster1,是NameNode的URI
+//		conf.set("fs.defaultFS", "hdfs://cluster1");
+//		// 指定hdfs的nameservice为cluster1
+//		conf.set("dfs.nameservices", "cluster1");
+//		// cluster1下面有两个NameNode，分别是nna节点和nns节点
+//		conf.set("dfs.ha.namenodes.cluster1", "nna,nns");
+//		// nna节点下的RPC通信地址
+//		conf.set("dfs.namenode.rpc-address.cluster1.nna", "nna:9000");
+//		// nns节点下的RPC通信地址
+//		conf.set("dfs.namenode.rpc-address.cluster1.nns", "nns:9000");
+//		// 实现故障自动转移方式
+//		conf.set("dfs.client.failover.proxy.provider.cluster1", "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider");
+//	}
+
 	static {
 		conf = new Configuration();
 		// 指定hdfs的nameservice为cluster1,是NameNode的URI
-		conf.set("fs.defaultFS", "hdfs://cluster1");
+		conf.set("fs.defaultFS", "hdfs://nna:9000");
 		// 指定hdfs的nameservice为cluster1
-		conf.set("dfs.nameservices", "cluster1");
-		// cluster1下面有两个NameNode，分别是nna节点和nns节点
-		conf.set("dfs.ha.namenodes.cluster1", "nna,nns");
-		// nna节点下的RPC通信地址
-		conf.set("dfs.namenode.rpc-address.cluster1.nna", "nna:9000");
-		// nns节点下的RPC通信地址
-		conf.set("dfs.namenode.rpc-address.cluster1.nns", "nns:9000");
-		// 实现故障自动转移方式
-		conf.set("dfs.client.failover.proxy.provider.cluster1", "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider");
+//		conf.set("dfs.nameservices", "cluster1");
+//		// cluster1下面有两个NameNode，分别是nna节点和nns节点
+//		conf.set("dfs.ha.namenodes.cluster1", "nna");
+//		// nna节点下的RPC通信地址
+//		conf.set("dfs.namenode.rpc-address.cluster1.nna", "nna:9000");
+//		// nns节点下的RPC通信地址
+////		conf.set("dfs.namenode.rpc-address.cluster1.nns", "nns:9000");
+//		// 实现故障自动转移方式
+//		conf.set("dfs.client.failover.proxy.provider.cluster1", "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider");
 	}
-
 
 	/**
 	 * 上传

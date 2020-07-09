@@ -19,10 +19,7 @@ package com.demo.hadoop.does.test;
 
 
 import com.demo.hadoop.common.utils.JedisUtils;
-import com.demo.hadoop.conf.SystemConfig;
 import redis.clients.jedis.Jedis;
-
-import java.util.Properties;
 
 /**
  * Test Jedis.

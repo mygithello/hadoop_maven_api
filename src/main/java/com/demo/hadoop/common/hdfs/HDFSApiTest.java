@@ -6,9 +6,12 @@ import java.io.IOException;
 
 public class HDFSApiTest {
 
+    public String hadoop_home="C:\\Users\\yacjia\\soft\\hadoop-2.8.5";
+
     @Test
     public void testLs() throws IOException {
-        System.setProperty("hadoop.home.dir","D:\\bigdata\\hadoop\\hadoop-2.7.4" );
+//        System.setProperty("hadoop.home.dir","D:\\bigdata\\hadoop\\hadoop-2.7.4" );
+        System.setProperty("hadoop.home.dir",hadoop_home);
         HDFSUtil.ls("/");
         System.out.println("000000");
     }
@@ -16,9 +19,9 @@ public class HDFSApiTest {
     @Test
     public void testMkdir() throws IOException {
         //System.setProperty("hadoop.home.dir","D:\\bigdata\\hadoop\\hadoop-2.7.4" );
-        System.setProperty("HADOOP_USER_NAME","hadoop");
+        System.setProperty("HADOOP_USER_NAME","root");
         //export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
-        System.setProperty("HADOOP_OPTS","-Djava.library.path=D:\\bigdata\\hadoop\\hadoop-2.7.4\\lib\\native");
+        System.setProperty("HADOOP_OPTS","-Djava.library.path=C:\\Users\\yacjia\\soft\\hadoop-2.8.5\\lib\\native");
         /**
          * 1.修改当前操作系统的用户名为linux文件系统中的用户名(此种方法最low)
          * 2. 通过 haddop fs -chmod 777 ... 修改文件的权限为任何人可读可写(不安全很low)
@@ -32,8 +35,9 @@ public class HDFSApiTest {
 
     @Test
     public void testPut() throws IOException {
-        System.setProperty("hadoop.home.dir","D:\\bigdata\\hadoop\\hadoop-2.7.4" );
-        System.setProperty("HADOOP_USER_NAME","hadoop");
+        System.setProperty("hadoop.home.dir","C:\\Users\\yacjia\\soft\\hadoop-2.8.5" );
+//        System.setProperty("hadoop.home.dir","D:\\bigdata\\hadoop\\hadoop-2.7.4" );
+        System.setProperty("HADOOP_USER_NAME","root");
         /**
          * 1.修改当前操作系统的用户名为linux文件系统中的用户名(此种方法最low)
          * 2. 通过 haddop fs -chmod 777 ... 修改文件的权限为任何人可读可写(不安全很low)
@@ -64,7 +68,7 @@ public class HDFSApiTest {
         //System.setProperty("hadoop.home.dir","D:\\bigdata\\hadoop\\hadoop-2.7.4" );
         System.setProperty("HADOOP_USER_NAME","hadoop");
         //export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
-        System.setProperty("HADOOP_OPTS","-Djava.library.path=D:\\bigdata\\hadoop\\hadoop-2.7.4\\lib\\native");
+        System.setProperty("HADOOP_OPTS","-Djava.library.path=C:\\Users\\yacjia\\soft\\hadoop-2.8.5\\lib\\native");
         /**
          * 1.修改当前操作系统的用户名为linux文件系统中的用户名(此种方法最low)
          * 2. 通过 haddop fs -chmod 777 ... 修改文件的权限为任何人可读可写(不安全很low)
@@ -80,7 +84,7 @@ public class HDFSApiTest {
         //System.setProperty("hadoop.home.dir","D:\\bigdata\\hadoop\\hadoop-2.7.4" );
         System.setProperty("HADOOP_USER_NAME","hadoop");
         //export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
-        System.setProperty("HADOOP_OPTS","-Djava.library.path=D:\\bigdata\\hadoop\\hadoop-2.7.4\\lib\\native");
+        System.setProperty("HADOOP_OPTS","-Djava.library.path=C:\\Users\\yacjia\\soft\\hadoop-2.8.5\\lib\\native");
         /**
          * 1.修改当前操作系统的用户名为linux文件系统中的用户名(此种方法最low)
          * 2. 通过 haddop fs -chmod 777 ... 修改文件的权限为任何人可读可写(不安全很low)

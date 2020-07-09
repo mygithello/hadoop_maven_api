@@ -9,5 +9,6 @@
         <module name="hadoop_maven_api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>

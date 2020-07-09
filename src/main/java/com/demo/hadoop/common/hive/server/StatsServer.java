@@ -48,14 +48,14 @@ public class StatsServer {
 	/** 启动定时任务. */
 	private static void jobStart(final String jobPath) throws ParseException, SchedulerException {
 
-		final JobDetail job = new JobDetail("job_daily_" + System.currentTimeMillis(), StatsJobQuartz.class);
-		final JobDataMap jobDataMap = new JobDataMap();
-		jobDataMap.put("task", jobPath);
-		job.setJobDataMap(jobDataMap);
-		final CronTrigger cron = new CronTrigger("cron_daily_" + System.currentTimeMillis(), "cron_daily_" + System.currentTimeMillis(), SystemConfig.getProperty("com.demo.hadoop.testcron.crontab"));
-		final SchedulerFactory schedulerFactory = new StdSchedulerFactory();
-		final Scheduler scheduler = schedulerFactory.getScheduler();
-		scheduler.scheduleJob(job, cron);
-		scheduler.start();
+//		final JobDetail job = new JobDetail("job_daily_" + System.currentTimeMillis(), StatsJobQuartz.class);
+//		final JobDataMap jobDataMap = new JobDataMap();
+//		jobDataMap.put("task", jobPath);
+//		job.setJobDataMap(jobDataMap);
+//		final CronTrigger cron = new CronTrigger("cron_daily_" + System.currentTimeMillis(), "cron_daily_" + System.currentTimeMillis(), SystemConfig.getProperty("com.demo.hadoop.testcron.crontab"));
+//		final SchedulerFactory schedulerFactory = new StdSchedulerFactory();
+//		final Scheduler scheduler = schedulerFactory.getScheduler();
+//		scheduler.scheduleJob(job, cron);
+//		scheduler.start();
 	}
 }
